@@ -1,0 +1,21 @@
+{
+  "name": "processing-service",
+  "version": "1.0.0",
+  "description": "Consumes order events and stores them in MongoDB",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^18.0.1",
+    "kafkajs": "^2.2.4",
+    "mongoose": "^8.24.4"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
